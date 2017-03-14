@@ -1,0 +1,28 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+After we have initialized a git repository, if we haven't performed any commits then the command 'git status' will output untracked files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It give us the possibility to decide which parts of the working repository we want to include in the commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+We can use the terminal commands git diff and git diff --staged to check if the staged area has the desired logical changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If we want to add some exploratory edits to our files such as colors and language.
+
+How do the diagrams help you visualize the branch structure?
+
+By looking at the diagrams, their tips and labels (branch names), one can easily understand what is going on with the commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is a version with all the desired commits from both branches. We represent branches in the diagram in order to better understand the commits/branches structure.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+PROS: it will save us time, most of the times the greedy assumptions are correct.
+CONS: sometimes automatic merging won't be as two different persons who edited the file would expect to.
