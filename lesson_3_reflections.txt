@@ -13,3 +13,7 @@ Forks, clones and branches are copies of commits got by commands fork, clone and
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 It is useful to have the state of the remote stored locally in situations where one is offline for a while (i.e. for travel) and wants to continue working on the project during that period.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without version control, two persons can colaborate on a file by discussing it via phone/messages and sending the latest version to eachother when necessary.
