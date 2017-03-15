@@ -17,3 +17,7 @@ It is useful to have the state of the remote stored locally in situations where 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Without version control, two persons can colaborate on a file by discussing it via phone/messages and sending the latest version to eachother when necessary.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I would want to make changes in a separate branch rather than directly in master in cases I forked someone's repository and want to make edits, or in the case I want to discuss some edits when od collaborating with a team on some project. The first approach is pretty complicated but it's more suited for collaborating on a code, while the second approach is simpler but a direct change in the master branch possibly introduces errors and bugs.
